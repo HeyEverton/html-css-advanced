@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Formulário</title>
+    <link rel="stylesheet"href="musashi.css"/>
+</head>
+
+
+<body>
+
+    <div class="a1">
+        <form action="paginas/login.html" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="BR" />
+            <div class="b1">
+                <label>Nome completo:<br/>
+                    <input type="text" name="usuario" class="c1" required>
+                </label><br/>
+                <label>Data de nascimento:<br/>
+                    <input type="date" name="birthdate" class="c1" required min="1999-01-01">
+                </label>
+            </div>
+            <div class="b2">
+                <label>Email:<br/>
+                    <input type="email" name="email" class="c1" required pattern="(^[a-zA-Z0-9 _-]+[a-zA-Z0-9-14\-[a-zA-Z0-9-.]+$)>
+                </label><br/>
+            
+                <label>Senha:<br/>
+                    <input type="password" name="password" class="c1">
+                </label><br/>
+                <label>Senha:<br/>
+                    <input type="password" name="password" class="c1">
+                </label><br/>
+                <label>Repita sua senha:<br/>
+                    <input type="password" name="confirmyourpassword" class="c1">
+                </label><br/>
+            </div>
+            <input type="submit" value="Cadastrar" class="c1">
+        </form>
+
+
+
+
+
+ 
+
+
+
+
+
+
+<a  href="index.html">
+    <input type="button" name="btn-back" value="Voltar"> </a>
+     
+
+
+
+</body>
+</html>

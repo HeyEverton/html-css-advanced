@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+                    <h1>Formulário</h1>
+    <form>
+        <input type="hidden" name="country" value="BR" />
+        <fieldset>
+             <legend>Dados Pessoais</legend>
+         <label for="">                                       
+             Primeiro Nome: <br>
+             <input class="c1" type="text" name="name" required >
+         </label>
+        
+         <label for=""> <br>
+             Sobrenome: <br>
+             <input class="c1" type="text" name="lastname" required>
+         </label> <br>
+         <label for="">
+             Data de Nascimento: <br>
+             <input class="c1" type="date" required>
+         </label> <br>
+         <label for="">
+            Email para contato: <br>
+            <input class="c1" type="email" name="" id="" required pattern="(^[a-zA-Z0-9 _-]+[a-zA-Z0-9-14]\-[a-zA-Z0-9-.]+$)">
+         </label> <br>
+         <label for="">
+                Foto: <br>
+                <input type="file" name="" id="">
+         </label>
+     </fieldset>
+         
+    <fieldset>
+             <legend>Dados Profissionais</legend>
+         <label for=""> <br>
+             Nome da empresa: <br>
+             <input class="c1" type="text" name="company-name" required >
+         </label>
+         <label for=""> <br>
+             Cargo na empresa: <br>
+             <input class="c1" type="text" name="job-company" required >
+         </label><br>
+         <label for="">
+             Carga Horária: <br>
+             <input class="c1" type="datetime-local" name="" id="">
+         </label>
+    </fieldset>
+        <input class="check" type="checkbox" name="" id=""> Declaro que li e aceito todos os <a href="">termos de uso</a> <br>
+        <button  class="c1" >Cadastrar</button>
+     </form>
+     
+<footer class="footer_copy">
+    <address> © Copyright - Todos os direitos reservados</address>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

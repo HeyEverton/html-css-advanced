@@ -1,0 +1,32 @@
+ body{
+     margin: 150px;
+     font-family: macondo;
+     font-weight: bold;
+     font-size: 19px;
+     background: linear-gradient(40deg, antiquewhite, #e0be92, gray)
+ }
+ .c1{
+     margin-top: 10px;
+ }
+ .c1:hover{
+    background-color: #e0be92;
+ }
+ button{
+     font-size: 26px;
+     font-weight: bold;
+     font-family: macondo;
+     margin-top: 20px;
+ }
+ .check, a{
+     font-size: 20px;
+ }
+ .footer_copy{
+     margin-top: 40px;
+     text-align: center;
+ }
+
+
+
+
+
+
